@@ -29,3 +29,14 @@
     height: 210px;
   }
 }
+
+.icons-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.icon {
+  margin: 0.5rem;
+}
