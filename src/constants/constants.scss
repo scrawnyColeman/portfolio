@@ -6,7 +6,10 @@ $paddingPrimary: 0.5rem;
 $borderRadiusPrimary: 4px;
 $boxShadowPrimary: 1px 1px 4px 1px #2e2e2e;
 
-$widgetBgColour: #eee;
+$widgetBgColour: linear-gradient(to right, #2e2e2e, #3b3b3b);
+
+$colourPrimary: #eee;
+$colourSecondary: #b4ef4e;
 
 $widgetHeightXXS: 300px;
 $widgetHeightXS: 360px;

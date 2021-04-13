@@ -1,6 +1,7 @@
 @import "../../constants/constants.scss";
 
 .display-image-container {
+  position: relative;
   @media (max-width: $responsiveXS) {
     height: $widgetHeightXXS;
     width: calc(100% - #{2 * $paddingPrimary});
@@ -25,4 +26,39 @@
   @media (max-width: $responsiveMed) {
     margin: 0.5rem auto;
   }
+}
+
+.display-image {
+  position: absolute;
+  top: calc(40% - 128px);
+  left: calc(50% - 128px);
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.user-description {
+  position: absolute;
+  height: 56px;
+  top: calc(100% - 72px);
+  left: 12.5%;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.user-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: $colourSecondary;
+  color: $colourPrimary;
+}
+
+.user-job {
+  color: $colourSecondary;
 }
