@@ -1,4 +1,5 @@
-$appContainerPadding: 2rem 2rem 0;
+$appContainerPaddingSm: 0.5rem 0.5rem 0;
+$appContainerPaddingLg: 2rem 2rem 0;
 
 $paddingPrimary: 0.5rem;
 
@@ -7,13 +8,15 @@ $boxShadowPrimary: 1px 1px 4px 1px #2e2e2e;
 
 $widgetBgColour: #eee;
 
-$widgetHeightXS: 400px;
-$widgetHeightSm: 440px;
-$widgetHeightMed: 560px;
+$widgetHeightXXS: 300px;
+$widgetHeightXS: 360px;
+$widgetHeightSm: 400px;
+$widgetHeightMed: 472px;
 $widgetHeightLg: 440px;
 $widgetHeightXl: 512px;
 
 // breakpoints
+$responsiveXS: 512px;
 $responsiveSm: 768px;
 $responsiveMed: 992px;
 $responsiveLg: 1200px;
