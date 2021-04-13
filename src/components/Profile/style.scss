@@ -1,31 +1,27 @@
 @import "../../constants/constants.scss";
 
-.technologies-container {
-  background-color: $widgetBgColour;
-  border-radius: $borderRadiusPrimary;
-  box-shadow: $boxShadowPrimary;
-  margin: 0.5rem;
-  width: 100%;
+.profile-container {
   @media (max-width: $responsiveXS) {
-    height: 196px;
+    height: $widgetHeightXXS;
     width: calc(100% - #{2 * $paddingPrimary});
     margin: 0.5rem auto;
   }
   @media (min-width: $responsiveXS) {
-    height: 168px;
     width: calc(100% - #{2 * $paddingPrimary});
-    margin: 0.5rem auto;
   }
   @media (min-width: $responsiveSm) {
-    height: 144px;
+    width: calc(100% - #{2 * $paddingPrimary});
   }
   @media (min-width: $responsiveMed) {
-    height: 128px;
+    width: calc(50% - #{2 * $paddingPrimary});
   }
   @media (min-width: $responsiveLg) {
-    height: 108px;
+    width: calc(60% - #{2 * $paddingPrimary});
   }
   @media (min-width: $responsiveXl) {
-    height: 96px;
+    width: calc(60% - #{2 * $paddingPrimary});
+  }
+  @media (max-width: $responsiveMed) {
+    margin: 0.5rem auto;
   }
 }
