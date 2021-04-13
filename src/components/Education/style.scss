@@ -1,0 +1,5 @@
+@import "../../constants/constants.scss";
+
+.education-container {
+  width: calc(100% - #{2 * $paddingPrimary});
+}

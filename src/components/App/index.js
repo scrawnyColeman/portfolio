@@ -3,6 +3,7 @@ import Technologies from "../Technologies";
 import Profile from "../Profile";
 import User from "../User";
 import Projects from "../Projects";
+import Education from "../Education";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <Profile />
       <Technologies />
       <Projects />
-      <div className="education-container widget">Hello</div>
+      <Education />
     </div>
   );
 };
