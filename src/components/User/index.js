@@ -1,7 +1,7 @@
 import "./style.scss";
 
 const User = () => {
-  return <div className="display-image-container widget">User</div>;
+  return <div className="display-image-container widget"></div>;
 };
 
 export default User;
