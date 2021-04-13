@@ -30,10 +30,18 @@
 
 .display-image {
   position: absolute;
-  top: calc(40% - 128px);
-  left: calc(50% - 128px);
-  width: 256px;
-  height: 256px;
+  @media (max-width: $responsiveXS) {
+    top: calc(40% - 86px);
+    left: calc(50% - 86px);
+    width: 172px;
+    height: 172px;
+  }
+  @media (min-width: $responsiveXS) {
+    top: calc(40% - 128px);
+    left: calc(50% - 128px);
+    width: 256px;
+    height: 256px;
+  }
   border-radius: 50%;
   background-color: red;
 }
