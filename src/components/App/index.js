@@ -2,6 +2,7 @@ import "./style.scss";
 import Technologies from "../Technologies";
 import Profile from "../Profile";
 import User from "../User";
+import Projects from "../Projects";
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       <User />
       <Profile />
       <Technologies />
-      <div className="projects-container widget">Hello</div>
+      <Projects />
       <div className="education-container widget">Hello</div>
     </div>
   );
