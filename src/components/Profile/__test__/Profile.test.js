@@ -4,6 +4,6 @@ import Profile from "..";
 describe("<Profile />", () => {
   test("should render without crashing", () => {
     const { container } = render(<Profile />);
-    expect(container).toBeInTheDocument();
+    expect(container).toBeTruthy();
   });
 });

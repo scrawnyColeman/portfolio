@@ -4,6 +4,6 @@ import Projects from "..";
 describe("<Projects />", () => {
   test("should render without crashing", () => {
     const { container } = render(<Projects />);
-    expect(container).toBeInTheDocument();
+    expect(container).toBeTruthy();
   });
 });

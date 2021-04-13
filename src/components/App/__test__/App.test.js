@@ -4,6 +4,6 @@ import App from "..";
 describe("<App />", () => {
   test("should render without crashing", () => {
     const { container } = render(<App />);
-    expect(container).toBeInTheDocument();
+    expect(container).toBeTruthy();
   });
 });

@@ -4,6 +4,6 @@ import Technologies from "..";
 describe("<Technologies />", () => {
   test("should render without crashing", () => {
     const { container } = render(<Technologies />);
-    expect(container).toBeInTheDocument();
+    expect(container).toBeTruthy();
   });
 });
