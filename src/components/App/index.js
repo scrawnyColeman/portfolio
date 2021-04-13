@@ -1,11 +1,12 @@
 import "./style.scss";
 import Technologies from "../Technologies";
 import Profile from "../Profile";
+import User from "../User";
 
 const App = () => {
   return (
     <div className="app-container">
-      <div className="display-image-container widget">Hi</div>
+      <User />
       <Profile />
       <Technologies />
       <div className="projects-container widget">Hello</div>
