@@ -90,36 +90,6 @@
   }
 }
 
-.technologies-container {
-  background-color: $widgetBgColour;
-  border-radius: $borderRadiusPrimary;
-  box-shadow: $boxShadowPrimary;
-  margin: 0.5rem;
-  width: 100%;
-  @media (max-width: $responsiveXS) {
-    height: 196px;
-    width: calc(100% - #{2 * $paddingPrimary});
-    margin: 0.5rem auto;
-  }
-  @media (min-width: $responsiveXS) {
-    height: 168px;
-    width: calc(100% - #{2 * $paddingPrimary});
-    margin: 0.5rem auto;
-  }
-  @media (min-width: $responsiveSm) {
-    height: 144px;
-  }
-  @media (min-width: $responsiveMed) {
-    height: 128px;
-  }
-  @media (min-width: $responsiveLg) {
-    height: 108px;
-  }
-  @media (min-width: $responsiveXl) {
-    height: 96px;
-  }
-}
-
 .projects-container {
   width: calc(100% - #{2 * $paddingPrimary});
 }
