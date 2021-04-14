@@ -3,7 +3,7 @@ import Technologies from "../Technologies";
 import Profile from "../Profile";
 import User from "../User";
 import Projects from "../Projects";
-import Education from "../Education";
+import EducationAndExperience from "../EducationAndExperience";
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Profile />
       <Technologies />
       <Projects />
-      <Education />
+      <EducationAndExperience />
     </div>
   );
 };
