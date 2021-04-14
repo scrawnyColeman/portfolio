@@ -25,3 +25,80 @@
     margin: 0.5rem auto;
   }
 }
+
+.personal-profile-widget-body {
+  position: relative;
+  margin: 12.5%;
+  letter-spacing: 2px;
+  @media (max-width: $responsiveMed) {
+    position: relative;
+    height: 75%;
+    margin: 6%;
+  }
+  @media (min-width: $responsiveMed) {
+    height: 60%;
+    margin: 10%;
+  }
+}
+.personal-profile-head {
+  font-size: 1.25rem;
+  @media (min-width: $responsiveXS) {
+    padding: 1.5rem 0;
+  }
+  @media (min-width: $responsiveSm) {
+    padding: 1rem 0;
+  }
+  @media (min-width: $responsiveMed) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: $responsiveXl) {
+    padding: 1.5rem 0;
+    font-size: 1.75rem;
+  }
+}
+.personal-profile-job {
+  text-decoration: none;
+  color: $colourSecondary;
+  @media (min-width: $responsiveXS) {
+    padding: 1.5rem 0;
+    font-size: 1.25rem;
+  }
+  @media (min-width: $responsiveSm) {
+    padding: 1rem 0;
+  }
+  @media (min-width: $responsiveMed) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: $responsiveXl) {
+    padding: 1.5rem 0;
+    font-size: 1.75rem;
+  }
+}
+.personal-profile-blurb {
+  width: 100%;
+  @media (max-width: $responsiveXS) {
+    margin-top: 1rem;
+  }
+  @media (min-width: $responsiveXS) {
+    padding: 1.5rem 0;
+  }
+  @media (min-width: $responsiveSm) {
+    padding: 1rem 0;
+  }
+  @media (min-width: $responsiveMed) {
+    font-size: 1.25rem;
+  }
+  @media (min-width: $responsiveXl) {
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+  }
+}
+.profile-footer {
+  position: absolute;
+  top: calc(100% - 36px);
+  left: -1rem;
+}
+
+.social-icon {
+  margin: 0 1rem;
+}

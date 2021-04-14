@@ -7,7 +7,9 @@ const User = () => {
       <img src={profileimg} alt="user" className="display-image" />
       <div className="user-description">
         <span className="user-name">Thomas Hutchinson</span>
-        <span className="user-job">Frontend Web Developer</span>
+        <span className="user-job">
+          UI Enthusiast - Programmer - Problem Solver
+        </span>
       </div>
     </div>
   );

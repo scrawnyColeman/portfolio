@@ -18,8 +18,8 @@
   color: $colourSecondary;
 }
 .widget-body {
-  height: calc(100% - 44px - 0.5rem);
-  padding: 0 $paddingPrimary;
+  height: calc(100% - 1rem);
+  padding: $paddingPrimary;
   overflow: auto;
   color: $colourPrimary;
 }

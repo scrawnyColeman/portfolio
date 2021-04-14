@@ -47,25 +47,43 @@
 
 .user-description {
   position: absolute;
-  height: 56px;
-  top: calc(100% - 72px);
-  left: 12.5%;
-  width: 75%;
+  height: 96px;
+  top: calc(100% - 104px);
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .user-name {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 500;
-  letter-spacing: 2px;
   color: $colourSecondary;
   color: $colourPrimary;
+  @media (max-width: $responsiveSm) {
+    font-size: 1.75rem;
+  }
+  @media (max-width: $responsiveXS) {
+    font-size: 1.5rem;
+  }
 }
 
 .user-job {
+  font-size: 1.5rem;
   color: $colourSecondary;
+  @media (max-width: $responsiveSm) {
+    font-size: 0.75rem;
+  }
+  @media (max-width: $responsiveXS) {
+    font-size: 0.5rem;
+  }
+  @media (min-width: $responsiveMed) {
+    font-size: 1rem;
+  }
+  @media (min-width: $responsiveXl) {
+    font-size: 1.5rem;
+  }
 }

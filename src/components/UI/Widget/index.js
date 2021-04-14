@@ -1,9 +1,8 @@
 import "./style.scss";
 
-const Widget = ({ title, children }) => {
+const Widget = ({ children }) => {
   return (
     <div className="widget-wrapper">
-      <div className="widget-header">{title}</div>
       <div className="widget-body">{children}</div>
     </div>
   );
