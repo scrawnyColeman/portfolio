@@ -2,11 +2,14 @@ import es6 from "../assets/icons/es6.png";
 import jest from "../assets/icons/jest.png";
 import js from "../assets/icons/js.png";
 import react from "../assets/icons/react.png";
+import redux from "../assets/icons/redux.png";
 import rtl from "../assets/icons/rtl.png";
 import sass from "../assets/icons/sass.png";
 import springboot from "../assets/icons/springboot.png";
 import styledcomponents from "../assets/icons/styledcomponents.png";
 import ts from "../assets/icons/ts.png";
+import mysql from "../assets/icons/mysql.png";
+import java from "../assets/icons/java.png";
 
 const technologies = [
   {
@@ -24,6 +27,10 @@ const technologies = [
   {
     name: "React",
     icon: react
+  },
+  {
+    name: "Redux",
+    icon: redux
   },
   {
     name: "Testing Library",
@@ -44,6 +51,14 @@ const technologies = [
   {
     name: "Typescript",
     icon: ts
+  },
+  {
+    name: "MySQL",
+    icon: mysql
+  },
+  {
+    name: "Java",
+    icon: java
   }
 ];
 
