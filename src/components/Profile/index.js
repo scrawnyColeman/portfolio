@@ -5,7 +5,7 @@ import Linkedin from "../../assets/icons/linkedin.png";
 
 const Profile = () => {
   const blurbString =
-    "Excited to become the best developer that I can be within a supportive and collaborative environment";
+    "Excited by creative UI's and love to build clean, elegant solutions with modern JavaScript. You'll find me on the web masquerading as @scrawnyColeman";
   return (
     <div className="profile-container widget">
       <Widget>

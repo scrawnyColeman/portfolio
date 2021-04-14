@@ -29,7 +29,6 @@
 .personal-profile-widget-body {
   position: relative;
   margin: 12.5%;
-  letter-spacing: 2px;
   @media (max-width: $responsiveMed) {
     position: relative;
     height: 75%;
@@ -39,6 +38,12 @@
     height: 60%;
     margin: 10%;
   }
+  @media (max-width: $responsiveXS) {
+    height: 85%;
+  }
+  @media (min-width: $responsiveXS) {
+    letter-spacing: 2px;
+  }
 }
 .personal-profile-head {
   font-size: 1.25rem;
@@ -47,9 +52,6 @@
   }
   @media (min-width: $responsiveSm) {
     padding: 1rem 0;
-  }
-  @media (min-width: $responsiveMed) {
-    font-size: 1.5rem;
   }
   @media (min-width: $responsiveXl) {
     padding: 1.5rem 0;
