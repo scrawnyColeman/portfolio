@@ -19,7 +19,7 @@
 }
 .widget-body {
   height: calc(100% - 1rem);
-  padding: $paddingPrimary;
-  overflow: auto;
+  margin: $paddingPrimary;
+  overflow: scroll;
   color: $colourPrimary;
 }

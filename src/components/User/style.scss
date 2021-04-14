@@ -49,7 +49,8 @@
   position: absolute;
   height: 96px;
   top: calc(100% - 104px);
-  width: 100%;
+  width: calc(100% - 1rem);
+  margin: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,18 +73,18 @@
 }
 
 .user-job {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: $colourSecondary;
   @media (max-width: $responsiveSm) {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
   @media (max-width: $responsiveXS) {
     font-size: 0.5rem;
   }
   @media (min-width: $responsiveMed) {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   @media (min-width: $responsiveXl) {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
