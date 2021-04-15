@@ -14,6 +14,7 @@ export const experience = [
     type: "education",
     title: "Graduate Software Engineer",
     location: "AquaQ Analytics",
+    when: "September 2020 - Present",
     description: (
       <div className="edu-description">
         Sole frontend engineer on a Greenfield internal supervisory system for a
@@ -85,6 +86,8 @@ export const experience = [
     type: "experience",
     title: "MSc Software Development",
     location: "The Queen's University of Belfast",
+    when: "September 2019 - September 2020",
+
     description: (
       <div className="edu-description">
         <ul>
@@ -136,6 +139,7 @@ export const experience = [
     type: "experience",
     title: "BSc Economics",
     location: "The Queen's University of Belfast",
+    when: "September 2016 - May 2019",
     description: (
       <div className="edu-description">
         <ul>

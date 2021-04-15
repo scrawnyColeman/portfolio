@@ -8,7 +8,6 @@ import sass from "../assets/icons/sass.png";
 import springboot from "../assets/icons/springboot.png";
 import styledcomponents from "../assets/icons/styledcomponents.png";
 import ts from "../assets/icons/ts.png";
-import mysql from "../assets/icons/mysql.png";
 import java from "../assets/icons/java.png";
 
 const technologies = [
@@ -51,10 +50,6 @@ const technologies = [
   {
     name: "Typescript",
     icon: ts
-  },
-  {
-    name: "MySQL",
-    icon: mysql
   },
   {
     name: "Java",
