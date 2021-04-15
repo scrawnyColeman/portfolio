@@ -4,7 +4,8 @@ const EducationAndExperiencePanel = ({
   title,
   location,
   description,
-  icons
+  icons,
+  when
 }) => {
   const iconsSection = icons.map(icon => (
     <img
@@ -20,6 +21,7 @@ const EducationAndExperiencePanel = ({
       <div className="edu-panel-head">
         <h2 className="edu-title">{title}</h2>
         <p className="edu-location">{location}</p>
+        <p className="edu-date">{when}</p>
       </div>
       <div className="edu-panel-body">{description}</div>
       <div className="edu-panel-icons">{iconsSection}</div>
