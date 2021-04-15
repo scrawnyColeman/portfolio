@@ -8,7 +8,7 @@ const Education = () => {
     <div className="education-container widget">
       <Widget title="Education and Experience">
         {experience.map(exp => {
-          const { location, title, description, icons } = exp;
+          const { location, title, description, icons, when } = exp;
           return (
             <EducationAndExperiencePanel
               key={`${location}:${title}`}
@@ -16,6 +16,7 @@ const Education = () => {
               location={location}
               description={description}
               icons={icons}
+              when={when}
             />
           );
         })}
