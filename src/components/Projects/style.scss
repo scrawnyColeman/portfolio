@@ -2,4 +2,79 @@
 
 .projects-container {
   width: calc(100% - #{2 * $paddingPrimary});
+  display: flex;
+}
+
+.project-title-wrapper {
+  @media (max-width: $responsiveSm) {
+    display: none;
+  }
+}
+.project-description-wrapper {
+  margin-top: 1rem;
+  @media (max-width: $responsiveSm) {
+    display: none;
+  }
+  @media (min-width: $responsiveMed) {
+    font-size: 1.55rem;
+  }
+}
+.projects-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+}
+.projects-img-wrapper {
+  height: 100%;
+  @media (max-width: $responsiveSm) {
+    width: 100%;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+.project-img {
+  height: 75%;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 5px 2px #1e1e1e;
+}
+
+.project-title {
+  font-size: 2rem;
+  color: $colourSecondary;
+}
+.project-icon {
+  margin: 0.5rem;
+  @media (max-width: $responsiveSm) {
+    display: none;
+  }
+}
+
+.project-btn {
+  font-size: 1.5rem;
+  width: 8rem;
+  color: $colourSecondary;
+  padding: 0.5rem;
+  @media (max-width: $responsiveSm) {
+    width: 6rem;
+    font-size: 1rem;
+  }
+  border: none;
+  border-radius: 0.75rem;
+  background-color: #2e2e2e;
+  box-shadow: 0 0 4px 1px #1b1b1b;
+  margin: 0.5rem;
+  &:hover {
+    box-shadow: 1px 1px 4px 1px #1b1b1b;
+    cursor: pointer;
+  }
+  &:active,
+  &:focus {
+    outline: none;
+  }
 }
