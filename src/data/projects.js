@@ -67,6 +67,7 @@ export const projects = [
       <div>
         Burger Builder built whilst learning from a{" "}
         <a
+          className="link"
           href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
           target="blank"
         >
@@ -121,7 +122,7 @@ export const projects = [
           <li>Routing with react-router / react-router-dom</li>
           <li>
             Fetching from&nbsp;
-            <a href="https://pokeapi.co/" target="blank">
+            <a href="https://pokeapi.co/" target="blank" className="link">
               PokeAPI
             </a>
           </li>

@@ -12,9 +12,9 @@ const Profile = () => {
         <div className="personal-profile-widget-body">
           <div>
             <div className="personal-profile-head">
-              <i>Frontend Engineer</i> at&nbsp;
+              Frontend Engineer at&nbsp;
               <a
-                className="personal-profile-job"
+                className="personal-profile-job link"
                 href="https://aquaq.co.uk"
                 target="blank"
               >
