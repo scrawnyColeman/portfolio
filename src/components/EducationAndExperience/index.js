@@ -1,27 +1,41 @@
 import "./style.scss";
 import Widget from "../UI/Widget";
 import { experience } from "../../data/experience";
-import EducationAndExperiencePanel from "../EducationAndExperiencePanel";
 
 const Education = () => {
   return (
-    <div className="education-container widget">
-      <Widget title="Education and Experience">
-        {experience.map(exp => {
-          const { location, title, description, icons, when } = exp;
-          return (
-            <EducationAndExperiencePanel
-              key={`${location}:${title}`}
-              title={title}
-              location={location}
-              description={description}
-              icons={icons}
-              when={when}
-            />
-          );
-        })}
-      </Widget>
-    </div>
+    <>
+      {experience.map(exp => {
+        const { location, title, description, icons, when } = exp;
+        return (
+          <div className="widget-container widget" key={`education${title}`}>
+            <Widget>
+              <div className="widget-content-wrapper">
+                <div className="widget-content">
+                  <h2 className="widget-title">{title}</h2>
+                  <div className="widget-icons-wrapper">
+                    {icons.map(i => (
+                      <img
+                        src={i.icon}
+                        alt={i.name}
+                        key={`edu-icon-${title}-${i.name}`}
+                        height="24"
+                        className="widget-icon"
+                      />
+                    ))}
+                  </div>
+                  <p className="widget-location">{location}</p>
+                  <p className="education-date">{when}</p>
+                  <div className="widget-description-wrapper">
+                    {description}
+                  </div>
+                </div>
+              </div>
+            </Widget>
+          </div>
+        );
+      })}
+    </>
   );
 };
 

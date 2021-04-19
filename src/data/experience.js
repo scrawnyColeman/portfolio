@@ -25,28 +25,20 @@ export const experience = [
         codebase extensible, consistent, and maintainable. Used the following:
         <ul>
           <li>
-            <b>ES6</b> (and beyond) syntax. Using features like Object
-            destructuring, arrow functions, optional chaining, and higher order
-            Array functions, such as .filter .map . reduce, etc. for their
-            ability to do lots of functionality with few lines of code.
+            <b>ES6</b> (and beyond) syntax
           </li>
           <li>
-            Prioritising <b>functional components</b> for their readability,
-            code reduction and the benefits of utilising hooks.
+            <b>Functional components</b> for their readability, code reduction
+            and the benefits of utilising and creating hooks.
           </li>
           <li>
-            <b>SASS</b> for the benefits of nesting styles and creating CSS
-            variables.
+            <b>SASS</b> for CSS preprocessing
           </li>
           <li>
-            <b>Redux</b> as a store for shared state, such as backdrop which is
-            shared across multiple overlaying components, and a Toast which
-            displays errors at App level, but can be called from many different
-            components in the tree
+            <b>Redux</b> as a state management tool
           </li>
           <li>
-            Utilising <b>React testing library</b> and <b>Jest</b> for unit
-            testing
+            <b>React testing library</b> and <b>Jest</b> for unit testing
           </li>
         </ul>
       </div>
@@ -142,14 +134,19 @@ export const experience = [
     when: "September 2016 - May 2019",
     description: (
       <div className="edu-description">
+        Used computation to carry out regression models. From this point
+        onwards, my interest in software grew. I began self teaching Javascript
+        via Codecademy and other means during my Undergraduate.
         <ul>
           <li>
-            Graduated 3rd in class with a <b>First-Class</b> Honours
+            <b>First-Class Honours</b> and graduated 3rd in my class
           </li>
           <li>
-            Undertaken a wide variety of areas of study, including{" "}
-            <b>Mathematics</b>, and <b>Econometrics</b> achieving 100% and 74%
-            respectively.
+            <b>Mathematics:</b> Achieved 100%
+          </li>
+          <li>
+            <b>Econometrics:</b> Achieved 74%. This module utilised STATA to
+            create polynomial regression models for large datasets.
           </li>
         </ul>
       </div>

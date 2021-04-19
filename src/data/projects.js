@@ -28,8 +28,6 @@ export const projects = [
           <li>Styled Components</li>
           <li>In built text editor, using react-ace</li>
           <li>Lesson carousel, with react-slick</li>
-          <li>Dynamic forum section to post comments or create new posts</li>
-          <li>Lessons in multiple languages</li>
         </ul>
       </div>
     ),

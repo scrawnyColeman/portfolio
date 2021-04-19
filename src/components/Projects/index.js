@@ -15,45 +15,45 @@ const Projects = () => {
           icons
         } = project;
         return (
-          <div className="projects-container widget" key={`project: ${title}`}>
+          <div className="widget-container widget" key={`project: ${title}`}>
             <Widget>
-              <div className="projects-wrapper">
-                <div className="projects-content">
-                  <div className="project-title-wrapper">
-                    <h2 className="project-title">{title}</h2>
+              <div className="widget-wrapper">
+                <div className="widget-content-wrapper">
+                  <div className="widget-content">
+                    <h2 className="widget-title">{title}</h2>
+                    <div className="widget-icons-wrapper">
+                      {icons.map(i => (
+                        <img
+                          src={i.icon}
+                          alt={i.name}
+                          key={`project${title}:${i.name}`}
+                          height="24"
+                          className="widget-icon"
+                        />
+                      ))}
+                    </div>
+                    <div className="widget-description-wrapper">
+                      {description}
+                    </div>
                   </div>
-                  <div className="project-icons-wrapper">
-                    {icons.map(i => (
-                      <img
-                        src={i.icon}
-                        alt={i.name}
-                        key={`project${title}:${i.name}`}
-                        height="24"
-                        className="project-icon"
-                      />
-                    ))}
-                  </div>
-                  <div className="project-description-wrapper">
-                    {description}
-                  </div>
-                </div>
-                <div className="projects-img-wrapper">
-                  {image}
-                  <div className="projects-btns-wrapper">
-                    <a href={github} target="blank">
-                      <button
-                        type="button"
-                        className="project-btn"
-                      >{`Source`}</button>
-                    </a>
-                    {deployment.length > 0 && (
-                      <a href={deployment} target="blank">
+                  <div className="widget-img-wrapper">
+                    {image}
+                    <div className="project-btns-wrapper">
+                      <a href={github} target="blank">
                         <button
                           type="button"
                           className="project-btn"
-                        >{`View`}</button>
+                        >{`Source`}</button>
                       </a>
-                    )}
+                      {deployment.length > 0 && (
+                        <a href={deployment} target="blank">
+                          <button
+                            type="button"
+                            className="project-btn"
+                          >{`View`}</button>
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>
