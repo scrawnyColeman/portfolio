@@ -1,16 +1,58 @@
 @import "../../constants/constants.scss";
 
-.projects-img {
-  height: calc(100% - 4rem);
-  border-radius: 0.5rem;
-  box-shadow: 0 0 5px 2px #1e1e1e;
+.project-container {
+  height: 100%;
+  width: calc(100% - #{2 * $paddingPrimary});
+  display: flex;
+  @media (max-width: $responsiveSm) {
+    flex-direction: column;
+  }
+}
+.project-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  @media (max-width: $responsiveSm) {
+    flex-direction: column;
+  }
+}
+
+.project-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media (min-width: $responsiveSm) {
+    height: 100%;
+  }
+  @media (max-width: $responsiveSm) {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.project-img {
+  @media (min-width: $responsiveSm) {
+    height: 312px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px 2px #1e1e1e;
+  }
+  @media (max-width: $responsiveSm) {
+    width: 75%;
+    height: auto;
+  }
+  @media (max-width: $responsiveXS) {
+    width: 100%;
+  }
 }
 
 .project-btns-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   margin: 0.5rem;
+  width: 100%;
 }
 
 .project-btn {

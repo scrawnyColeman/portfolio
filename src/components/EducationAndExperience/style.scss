@@ -1,9 +1,15 @@
 @import "../../constants/constants.scss";
 
+.education-container {
+  height: 100%;
+  width: calc(100% - #{2 * $paddingPrimary});
+  display: flex;
+}
 .education-date {
   color: $colourSecondary;
   font-style: italic;
   line-height: 150%;
+  font-size: 1.25rem;
 }
 .edu-description {
   @media (min-width: $responsiveSm) {

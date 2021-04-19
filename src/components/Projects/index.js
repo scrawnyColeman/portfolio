@@ -15,10 +15,10 @@ const Projects = () => {
           icons
         } = project;
         return (
-          <div className="widget-container widget" key={`project: ${title}`}>
+          <div className="project-container widget" key={`project: ${title}`}>
             <Widget>
               <div className="widget-wrapper">
-                <div className="widget-content-wrapper">
+                <div className="project-content-wrapper">
                   <div className="widget-content">
                     <h2 className="widget-title">{title}</h2>
                     <div className="widget-icons-wrapper">
@@ -36,7 +36,7 @@ const Projects = () => {
                       {description}
                     </div>
                   </div>
-                  <div className="widget-img-wrapper">
+                  <div className="project-img-wrapper">
                     {image}
                     <div className="project-btns-wrapper">
                       <a href={github} target="blank">

@@ -8,7 +8,7 @@ const Education = () => {
       {experience.map(exp => {
         const { location, title, description, icons, when } = exp;
         return (
-          <div className="widget-container widget" key={`education${title}`}>
+          <div className="education-container widget" key={`education${title}`}>
             <Widget>
               <div className="widget-content-wrapper">
                 <div className="widget-content">
