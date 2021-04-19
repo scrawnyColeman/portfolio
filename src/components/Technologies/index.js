@@ -11,6 +11,7 @@ const Technologies = () => {
             <img
               src={icon}
               alt={name}
+              title={name}
               key={name}
               height="48"
               className="icon"

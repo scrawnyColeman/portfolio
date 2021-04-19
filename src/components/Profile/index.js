@@ -26,7 +26,8 @@ const Profile = () => {
               <a href="https://github.com/scrawnyColeman" target="blank">
                 <img
                   src={Github}
-                  alt="github"
+                  alt="GitHub"
+                  title="GitHub"
                   height="36"
                   className="social-icon"
                 />
@@ -37,7 +38,8 @@ const Profile = () => {
               >
                 <img
                   src={Linkedin}
-                  alt="linkedin"
+                  alt="LinkedIn"
+                  title="LinkedIn"
                   height="36"
                   className="social-icon"
                 />

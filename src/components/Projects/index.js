@@ -26,6 +26,7 @@ const Projects = () => {
                         <img
                           src={i.icon}
                           alt={i.name}
+                          title={i.name}
                           key={`project${title}:${i.name}`}
                           height="24"
                           className="widget-icon"

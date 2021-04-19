@@ -4,7 +4,12 @@ import "./style.scss";
 const User = () => {
   return (
     <div className="display-image-container widget">
-      <img src={profileimg} alt="user" className="display-image" />
+      <img
+        src={profileimg}
+        alt="Meeee (ish)"
+        title="Meeee (ish)"
+        className="display-image"
+      />
       <div className="user-description">
         <span className="user-name">Thomas Hutchinson</span>
         <span className="user-job">
