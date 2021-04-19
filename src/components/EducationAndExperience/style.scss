@@ -19,7 +19,9 @@
 .education-description-wrapper {
   font-size: 1.25rem;
   ul {
-    columns: 2;
+    @media (min-width: $responsiveSm) {
+      columns: 2;
+    }
     width: 100%;
   }
   li {
