@@ -26,7 +26,7 @@ const Education = () => {
                   </div>
                   <p className="widget-location">{location}</p>
                   <p className="education-date">{when}</p>
-                  <div className="widget-description-wrapper">
+                  <div className="education-description-wrapper">
                     {description}
                   </div>
                 </div>
