@@ -77,7 +77,7 @@ export const experience = [
   {
     type: "experience",
     title: "MSc Software Development",
-    location: "The Queen's University of Belfast",
+    location: "Queen's University Belfast",
     when: "September 2019 - September 2020",
 
     description: (
@@ -130,7 +130,7 @@ export const experience = [
   {
     type: "experience",
     title: "BSc Economics",
-    location: "The Queen's University of Belfast",
+    location: "Queen's University Belfast",
     when: "September 2016 - May 2019",
     description: (
       <div className="edu-description">

@@ -30,12 +30,7 @@
 }
 .widget-location {
   color: $colourPrimary;
-  @media (max-width: $responsiveSm) {
-    font-size: 1rem;
-  }
-  @media (min-width: $responsiveSm) {
-    font-size: 1.5rem;
-  }
+  font-size: 1.3rem;
 }
 .widget-icon {
   margin: 0.5rem;
