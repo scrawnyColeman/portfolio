@@ -2,45 +2,24 @@
 
 .display-image-container {
   position: relative;
+  width: 100%;
+  margin: 0.5rem auto;
   @media (max-width: $responsiveXS) {
     height: $widgetHeightXXS;
-    width: calc(100% - #{2 * $paddingPrimary});
-    margin: 0.5rem auto;
-  }
-  @media (min-width: $responsiveXS) {
-    width: calc(100% - #{2 * $paddingPrimary});
-  }
-  @media (min-width: $responsiveSm) {
-    width: calc(100% - #{2 * $paddingPrimary});
-  }
-  @media (min-width: $responsiveMed) {
-    width: calc(50% - #{2 * $paddingPrimary});
-  }
-  @media (min-width: $responsiveLg) {
-    width: calc(40% - #{2 * $paddingPrimary});
-  }
-  @media (min-width: $responsiveXl) {
-    width: calc(40% - #{2 * $paddingPrimary});
-  }
-
-  @media (max-width: $responsiveMed) {
-    margin: 0.5rem auto;
   }
 }
 
 .display-image {
   position: absolute;
+  top: calc(40% - 128px);
+  left: calc(50% - 128px);
+  width: 256px;
+  height: 256px;
   @media (max-width: $responsiveXS) {
     top: calc(40% - 86px);
     left: calc(50% - 86px);
     width: 172px;
     height: 172px;
-  }
-  @media (min-width: $responsiveXS) {
-    top: calc(40% - 128px);
-    left: calc(50% - 128px);
-    width: 256px;
-    height: 256px;
   }
   border-radius: 50%;
 }
@@ -60,31 +39,13 @@
 }
 
 .user-name {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 500;
   color: $colourSecondary;
   color: $colourPrimary;
-  @media (max-width: $responsiveSm) {
-    font-size: 1.75rem;
-  }
-  @media (max-width: $responsiveXS) {
-    font-size: 1.5rem;
-  }
 }
 
 .user-job {
   font-size: 1.3rem;
   color: $colourSecondary;
-  @media (max-width: $responsiveSm) {
-    font-size: 0.7rem;
-  }
-  @media (max-width: $responsiveXS) {
-    font-size: 0.5rem;
-  }
-  @media (min-width: $responsiveMed) {
-    font-size: 0.9rem;
-  }
-  @media (min-width: $responsiveXl) {
-    font-size: 1.2rem;
-  }
 }

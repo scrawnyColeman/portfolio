@@ -11,8 +11,8 @@ const App = () => {
       <User />
       <Profile />
       <Technologies />
-      <Projects />
       <EducationAndExperience />
+      <Projects />
     </div>
   );
 };

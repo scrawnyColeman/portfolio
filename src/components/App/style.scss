@@ -2,19 +2,26 @@
 
 .app-container {
   @media (max-width: $responsiveSm) {
-    padding: $appContainerPaddingSm;
+    margin: 0 auto;
+    width: 100%;
   }
   @media (min-width: $responsiveSm) {
-    padding: $appContainerPaddingLg;
+    margin: 0 auto;
+    width: 85%;
+  }
+  @media (min-width: $responsiveMed) {
+    margin: 0 auto;
+    width: 75%;
   }
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .widget {
   background-image: $widgetBgColour;
   border-radius: $borderRadiusPrimary;
   box-shadow: $boxShadowPrimary;
-  margin: 0.5rem;
+  margin: 0.75rem 0;
   @media (max-width: $responsiveXS) {
     height: $widgetHeightXXS;
     width: calc(100% - #{2 * $paddingPrimary});

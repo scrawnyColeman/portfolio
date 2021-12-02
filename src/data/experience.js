@@ -1,6 +1,7 @@
 import es6 from "../assets/icons/es6.png";
 import jest from "../assets/icons/jest.png";
 import js from "../assets/icons/js.png";
+import ts from "../assets/icons/ts.png";
 import react from "../assets/icons/react.png";
 import rtl from "../assets/icons/rtl.png";
 import sass from "../assets/icons/sass.png";
@@ -8,13 +9,116 @@ import redux from "../assets/icons/redux.png";
 import springboot from "../assets/icons/springboot.png";
 import mysql from "../assets/icons/mysql.png";
 import java from "../assets/icons/java.png";
+import next from "../assets/icons/next.png";
+import lambda from "../assets/icons/lambda.png";
+import node from "../assets/icons/node.png";
+import ddb from "../assets/icons/ddb.png";
+import gql from "../assets/icons/gql.png";
+import styledcomponents from "../assets/icons/styledcomponents.png";
 
 export const experience = [
   {
     type: "education",
+    title: "Software Engineer",
+    location: "Trilo",
+    when: "July 2021 - Present",
+    description: (
+      <div className="edu-description">
+        <ul>
+          <li>
+            Joined as a Frontend engineer but quickly transitioned to working
+            across the stack. The philosophy at Trilo is <b>No silo, no solo</b>
+            ; everybody works on all areas of the tech stack, and everybody can
+            take ownership of full features from end to end.
+          </li>
+          <li>
+            Have worked on everything from creating <b>Lambdas</b> to building
+            up <b>Frontend web apps</b>, as well as scaffolding a{" "}
+            <b>React Native App </b>
+            from the ground up.
+          </li>
+          <li>
+            Built a themed QR code generator using <b>node-canvas</b> and{" "}
+            <b>AWS Lambda</b>
+          </li>
+          <li>
+            Working with <b>Typescript</b>, <b>React (Next.js)</b>,{" "}
+            <b>Redux & Redux thunk</b>, <b>Node.js</b>, <b>AWS</b>,{" "}
+            <b>Serverless</b>, <b>GraphQL</b>, <b>React Native</b>,{" "}
+            <b>CSS-in-JS</b>, <b>Sass</b> and
+            <b> Figma</b>.
+          </li>
+          <li>
+            Built out Frontend web apps from the ground up using <b>Next.js</b>.
+            Examples includes both <b>static sites</b> with{" "}
+            <b>static routing</b>, as well as
+            <b> server side rendered</b> sites that utilise{" "}
+            <b>dynamic routing</b>. Deployed to AWS using{" "}
+            <b>Infrastructure-as-code</b>, per the <b>Serverless</b> framework.
+          </li>
+        </ul>
+      </div>
+    ),
+    icons: [
+      {
+        name: "React",
+        icon: react,
+      },
+      {
+        name: "Next",
+        icon: next,
+      },
+      {
+        name: "Typescript",
+        icon: ts,
+      },
+      {
+        name: "JavaScript",
+        icon: js,
+      },
+      {
+        name: "Jest",
+        icon: jest,
+      },
+      {
+        name: "Testing Library",
+        icon: rtl,
+      },
+      {
+        name: "SASS",
+        icon: sass,
+      },
+      {
+        name: "Styled-components",
+        icon: styledcomponents,
+      },
+      {
+        name: "Redux",
+        icon: redux,
+      },
+      {
+        name: "Node.js",
+        icon: node,
+      },
+      {
+        name: "GraphQL",
+        icon: gql,
+      },
+      {
+        name: "Lambda",
+        icon: lambda,
+      },
+      {
+        name: "DynamoDB",
+        icon: ddb,
+      },
+    ],
+  },
+  {
+    type: "education",
     title: "Graduate Software Engineer",
     location: "AquaQ Analytics",
-    when: "September 2020 - Present",
+    when: "September 2020 - July 2021",
     description: (
       <div className="edu-description">
         Sole frontend engineer on a Greenfield internal supervisory system for a
@@ -46,33 +150,33 @@ export const experience = [
     icons: [
       {
         name: "React",
-        icon: react
+        icon: react,
       },
       {
         name: "JavaScript",
-        icon: js
+        icon: js,
       },
       {
         name: "ES6",
-        icon: es6
+        icon: es6,
       },
       {
         name: "Jest",
-        icon: jest
+        icon: jest,
       },
       {
         name: "Testing Library",
-        icon: rtl
+        icon: rtl,
       },
       {
         name: "SASS",
-        icon: sass
+        icon: sass,
       },
       {
         name: "Redux",
-        icon: redux
-      }
-    ]
+        icon: redux,
+      },
+    ],
   },
   {
     type: "experience",
@@ -107,25 +211,25 @@ export const experience = [
     icons: [
       {
         name: "React",
-        icon: react
+        icon: react,
       },
       {
         name: "Spring Boot",
-        icon: springboot
+        icon: springboot,
       },
       {
         name: "JavaScript",
-        icon: js
+        icon: js,
       },
       {
         name: "MySQL",
-        icon: mysql
+        icon: mysql,
       },
       {
         name: "Java",
-        icon: java
-      }
-    ]
+        icon: java,
+      },
+    ],
   },
   {
     type: "experience",
@@ -151,8 +255,8 @@ export const experience = [
         </ul>
       </div>
     ),
-    icons: []
-  }
+    icons: [],
+  },
 ];
 
 export default experience;

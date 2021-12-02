@@ -12,13 +12,13 @@ const Profile = () => {
         <div className="personal-profile-widget-body">
           <div>
             <div className="personal-profile-head">
-              Frontend Engineer at&nbsp;
+              Software Engineer at&nbsp;
               <a
                 className="personal-profile-job link"
-                href="https://aquaq.co.uk"
+                href="https://trilo.io"
                 target="blank"
               >
-                AquaQ Analytics
+                Trilo
               </a>
             </div>
             <div className="personal-profile-blurb">{blurbString}</div>

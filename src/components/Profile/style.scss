@@ -1,43 +1,23 @@
 @import "../../constants/constants.scss";
 
 .profile-container {
+  width: 100%;
   @media (max-width: $responsiveXS) {
     height: $widgetHeightXXS;
-    width: calc(100% - #{2 * $paddingPrimary});
-    margin: 0.5rem auto;
-  }
-  @media (min-width: $responsiveXS) {
-    width: calc(100% - #{2 * $paddingPrimary});
-  }
-  @media (min-width: $responsiveSm) {
-    width: calc(100% - #{2 * $paddingPrimary});
-  }
-  @media (min-width: $responsiveMed) {
-    width: calc(50% - #{2 * $paddingPrimary});
-  }
-  @media (min-width: $responsiveLg) {
-    width: calc(60% - #{2 * $paddingPrimary});
-  }
-  @media (min-width: $responsiveXl) {
-    width: calc(60% - #{2 * $paddingPrimary});
-  }
-  @media (max-width: $responsiveMed) {
     margin: 0.5rem auto;
   }
 }
 
 .personal-profile-widget-body {
   position: relative;
-  margin: 4rem;
   height: calc(100% - 8rem);
+  margin: 2rem;
   @media (max-width: $responsiveMed) {
     position: relative;
     height: 75%;
-    margin: 6%;
   }
   @media (min-width: $responsiveMed) {
-    height: calc(100% - 8rem);
-    margin: 4rem;
+    height: calc(100% - 4rem);
   }
   @media (max-width: $responsiveXS) {
     height: calc(100% - 2rem);
@@ -49,16 +29,10 @@
   }
 }
 .personal-profile-head {
-  font-size: 1.5rem;
-  @media (min-width: $responsiveXS) {
-    padding: 1.5rem 0;
-  }
-  @media (min-width: $responsiveSm) {
-    padding: 1rem 0;
-  }
+  font-size: 1.75rem;
+
   @media (min-width: $responsiveXl) {
-    padding: 1.5rem 0;
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 }
 .personal-profile-job {
@@ -71,11 +45,11 @@
     padding: 1rem 0;
   }
   @media (min-width: $responsiveMed) {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
   @media (min-width: $responsiveXl) {
     padding: 1.5rem 0;
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 }
 .personal-profile-blurb {
@@ -90,11 +64,11 @@
     padding: 1rem 0;
   }
   @media (min-width: $responsiveMed) {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   @media (min-width: $responsiveXl) {
     padding: 1.5rem 0;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 }
 .profile-footer {

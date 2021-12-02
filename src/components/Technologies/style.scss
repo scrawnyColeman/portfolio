@@ -4,30 +4,10 @@
   background-image: $widgetBgColour;
   border-radius: $borderRadiusPrimary;
   box-shadow: $boxShadowPrimary;
-  margin: 0.5rem;
   width: 100%;
-  @media (max-width: $responsiveXS) {
-    height: 260px;
-    width: calc(100% - #{2 * $paddingPrimary});
-    margin: 0.5rem auto;
-  }
-  @media (min-width: $responsiveXS) {
-    height: 250px;
-    width: calc(100% - #{2 * $paddingPrimary});
-    margin: 0.5rem auto;
-  }
-  @media (min-width: $responsiveSm) {
-    height: 240px;
-  }
-  @media (min-width: $responsiveMed) {
-    height: 230px;
-  }
-  @media (min-width: $responsiveLg) {
-    height: 220px;
-  }
-  @media (min-width: $responsiveXl) {
-    height: 210px;
-  }
+  min-height: 180px;
+  margin: 0.75rem 0;
+  padding: 0.5rem;
 }
 
 .icons-wrapper {
@@ -39,7 +19,4 @@
 }
 .icon {
   margin: 0.5rem;
-  @media (max-width: $responsiveSm) {
-    height: 28px;
-  }
 }

@@ -2,7 +2,7 @@
 
 .project-container {
   height: 100%;
-  width: calc(100% - #{2 * $paddingPrimary});
+  width: 100%;
   display: flex;
   @media (max-width: $responsiveSm) {
     flex-direction: column;
@@ -50,9 +50,15 @@
 
 .project-btns-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0.5rem;
   width: 100%;
+  a {
+    margin-top: 0.5rem;
+    &:first-child {
+      margin-right: 1rem;
+    }
+  }
 }
 
 .project-btn {
