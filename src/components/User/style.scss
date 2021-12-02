@@ -1,23 +1,20 @@
 @import "../../constants/constants.scss";
 
 .display-image-container {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
   width: 100%;
-  margin: 0.5rem auto;
-  @media (max-width: $responsiveXS) {
-    height: $widgetHeightXXS;
-  }
+
+  padding: 1.5rem;
 }
 
 .display-image {
-  position: absolute;
-  top: calc(40% - 128px);
-  left: calc(50% - 128px);
   width: 256px;
   height: 256px;
   @media (max-width: $responsiveXS) {
-    top: calc(40% - 86px);
-    left: calc(50% - 86px);
     width: 172px;
     height: 172px;
   }
@@ -25,10 +22,6 @@
 }
 
 .user-description {
-  position: absolute;
-  height: 96px;
-  top: calc(100% - 104px);
-  width: calc(100% - 1rem);
   margin: 0.5rem;
   display: flex;
   align-items: center;
@@ -41,11 +34,19 @@
 .user-name {
   font-size: 2rem;
   font-weight: 500;
-  color: $colourSecondary;
+  margin-top: 0.5rem;
+  @media (max-width: $responsiveXS) {
+    font-size: 1.55rem;
+  }
+
   color: $colourPrimary;
 }
 
 .user-job {
   font-size: 1.3rem;
+  margin-top: 0.75rem;
+  @media (max-width: $responsiveXS) {
+    font-size: 0.8rem;
+  }
   color: $colourSecondary;
 }

@@ -23,24 +23,8 @@
   box-shadow: $boxShadowPrimary;
   margin: 0.75rem 0;
   @media (max-width: $responsiveXS) {
-    height: $widgetHeightXXS;
     width: calc(100% - #{2 * $paddingPrimary});
     margin: 0.5rem auto;
-  }
-  @media (min-width: $responsiveXS) {
-    height: $widgetHeightXS;
-  }
-  @media (min-width: $responsiveSm) {
-    height: $widgetHeightSm;
-  }
-  @media (min-width: $responsiveMed) {
-    height: $widgetHeightMed;
-  }
-  @media (min-width: $responsiveLg) {
-    height: $widgetHeightLg;
-  }
-  @media (min-width: $responsiveXl) {
-    height: $widgetHeightXl;
   }
 }
 .link {
