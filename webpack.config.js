@@ -7,7 +7,7 @@ module.exports = (_, argv) => ({
     publicPath:
       argv.mode === "development"
         ? "http://localhost:8080/"
-        : "https://thomashutchinson.dev",
+        : "https://thomashutchinson.dev/",
   },
 
   resolve: {
