@@ -1,3 +1,4 @@
+import React from "react";
 import "./style.scss";
 import Widget from "../UI/Widget";
 import { experience } from "../../data/experience";
@@ -5,7 +6,7 @@ import { experience } from "../../data/experience";
 const Education = () => {
   return (
     <>
-      {experience.map(exp => {
+      {experience.map((exp) => {
         const { location, title, description, icons, when } = exp;
         return (
           <div className="education-container widget" key={`education${title}`}>
@@ -14,7 +15,7 @@ const Education = () => {
                 <div className="widget-content">
                   <h2 className="widget-title">{title}</h2>
                   <div className="widget-icons-wrapper">
-                    {icons.map(i => (
+                    {icons.map((i) => (
                       <img
                         src={i.icon}
                         alt={i.name}

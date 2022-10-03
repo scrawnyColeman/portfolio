@@ -1,3 +1,4 @@
+import React from "react";
 import "./style.scss";
 import Technologies from "../Technologies";
 import Profile from "../Profile";

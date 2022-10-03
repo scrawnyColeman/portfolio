@@ -1,3 +1,4 @@
+import React from "react";
 import profileimg from "../../assets/img/profileimg.png";
 import "./style.scss";
 

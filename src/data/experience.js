@@ -1,3 +1,4 @@
+import React from "react";
 import es6 from "../assets/icons/es6.png";
 import jest from "../assets/icons/jest.png";
 import js from "../assets/icons/js.png";
@@ -27,7 +28,7 @@ export const experience = [
         <ul>
           <li>
             Joined as a Frontend engineer but quickly transitioned to working
-            across the stack. The philosophy at Trilo is <b>No silo, no solo</b>
+            across the stack. The philosophy at Trilo is <b>No solo, no silo</b>
             ; everybody works on all areas of the tech stack, and everybody can
             take ownership of full features from end to end.
           </li>
@@ -42,11 +43,10 @@ export const experience = [
             <b>AWS Lambda</b>
           </li>
           <li>
-            Working with <b>Typescript</b>, <b>React (Next.js)</b>,{" "}
-            <b>Redux & Redux thunk</b>, <b>Node.js</b>, <b>AWS</b>,{" "}
-            <b>Serverless</b>, <b>GraphQL</b>, <b>React Native</b>,{" "}
-            <b>CSS-in-JS</b>, <b>Sass</b> and
-            <b> Figma</b>.
+            Built a microservice for the creation of one-shot consumable URLs to
+            be utilised in our payment journey using
+            <b>AWS CDK</b>, <b>Lambda</b>, <b>NodeJS w/ Typescript</b> and{" "}
+            <b>DynamoDB</b>
           </li>
           <li>
             Built out Frontend web apps from the ground up using <b>Next.js</b>.

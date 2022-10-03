@@ -1,3 +1,4 @@
+import React from "react";
 import "./style.scss";
 import Widget from "../UI/Widget";
 import { projects } from "../../data/projects";
@@ -5,15 +6,9 @@ import { projects } from "../../data/projects";
 const Projects = () => {
   return (
     <>
-      {projects.map(project => {
-        const {
-          image,
-          title,
-          description,
-          github,
-          deployment,
-          icons
-        } = project;
+      {projects.map((project) => {
+        const { image, title, description, github, deployment, icons } =
+          project;
         return (
           <div className="project-container widget" key={`project: ${title}`}>
             <Widget>
@@ -22,7 +17,7 @@ const Projects = () => {
                   <div className="widget-content">
                     <h2 className="widget-title">{title}</h2>
                     <div className="widget-icons-wrapper">
-                      {icons.map(i => (
+                      {icons.map((i) => (
                         <img
                           src={i.icon}
                           alt={i.name}
@@ -41,17 +36,15 @@ const Projects = () => {
                     {image}
                     <div className="project-btns-wrapper">
                       <a href={github} target="blank">
-                        <button
-                          type="button"
-                          className="project-btn"
-                        >{`Source`}</button>
+                        <button type="button" className="project-btn">
+                          Source
+                        </button>
                       </a>
                       {deployment.length > 0 && (
                         <a href={deployment} target="blank">
-                          <button
-                            type="button"
-                            className="project-btn"
-                          >{`View`}</button>
+                          <button type="button" className="project-btn">
+                            View
+                          </button>
                         </a>
                       )}
                     </div>

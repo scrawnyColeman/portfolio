@@ -1,3 +1,4 @@
+import React from "react";
 import es6 from "../assets/icons/es6.png";
 import jest from "../assets/icons/jest.png";
 import js from "../assets/icons/js.png";

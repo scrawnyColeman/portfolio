@@ -1,3 +1,4 @@
+import React from "react";
 import "./style.scss";
 import Widget from "../UI/Widget";
 import Github from "../../assets/icons/github.png";
